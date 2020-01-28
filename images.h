@@ -51,7 +51,9 @@ template<typename T>
 Base_image<T> rings(Point q, double d, T this_way, T that_way);
 
 template<typename T>
-Base_image<T> vertical_stripe(double d, T this_way, T that_way);
+inline Base_image<T> vertical_stripe(double d, T this_way, T that_way) {
+    return [=]([[gnu::unused]] Point p) { return this_way; };
+}
 
 Image cond(Region region, Image this_way, Image that_way);
 
