@@ -1,23 +1,23 @@
 #include "functional.h"
-//#include "images.h"
-//#include "bmp.h"
-//#include "color.h"
-//#include "coordinate.h"
+#include "images.h"
+#include "bmp.h"
+#include "color.h"
+#include "coordinate.h"
 #include <cassert>
 #include <cmath>
 #include <cstdint>
 
 int main() {
-//  const uint32_t width = 400;
-//  const uint32_t height = 300;
+  const uint32_t width = 400;
+  const uint32_t height = 300;
 //  const Region rc = circle(Point(50., 100.), 10., true, false);
 //  const Image vs = vertical_stripe(100, Colors::Caribbean_blue, Colors::blue);
 //  const Blend cb = constant<Fraction>(.42);
-//
-//  create_BMP("constant.bmp",
-//             width,
-//             height,
-//             constant(Colors::Caribbean_blue));
+
+  create_BMP("constant.bmp",
+             width,
+             height,
+             constant(Colors::Caribbean_blue));
 //  create_BMP("rotate.bmp",
 //             width,
 //             height,
