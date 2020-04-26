@@ -9,8 +9,6 @@ Jeszcze  bardziej  uogólnioną koncepcją  obrazu są  tzw. obrazy funkcyjne (a
 functional images), które są funkcjami R^2 -> A, gdzie A w szczególnym przypad-
 ku może być zbiorem kolorów.
 
-                                      * * *
-
 W katalogu z treścią zadania zostały udostępnione następujące pliki:
   bmp.h, bmp.cc               – obsługa zapisu obrazu w formacie BMP,
   color.h, color.cc           – definicja kolorów w formacie RGB,
@@ -29,7 +27,6 @@ których zawartość jest streszczona poniżej  i dokładniej opisana w dalszej 
   functional.* – pomocnicza biblioteka  implementująca  pewne konstrukcje znane
   z języków funkcyjnych.
 
-                                      * * *
 
 Plik(i) images.* powinien/powinny definiować typy,  szablony funkcji oraz funk-
 cje opisane poniżej.
@@ -132,7 +129,6 @@ cje opisane poniżej.
       1 oznacza stworzenie białego obrazu,
       0 oznacza kopię image.
 
-                                      * * *
 
 Plik(i) functional.* powinien/powinny definiować szablony funkcji/funkcje  opi-
 sane poniżej.
@@ -176,7 +172,6 @@ sane poniżej.
       Nazwa „pointwise lifting” powinna w tym momencie wydawać się już bardziej
       naturalna.
 
-                                      * * *
 
 W implementacji  ww.  funkcji/szablonów funkcji  należy  wykorzystywać  funkcje
 lambda języka C++.  W kodzie źródłowym images.* należy z kolei korzystać z sym-
